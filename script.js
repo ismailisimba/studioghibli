@@ -92,7 +92,7 @@ async function fetchInfoWithFilter () {
 
           for(i=0;i<objectEntries.length;i++){
               let copyKey = myKey.cloneNode(true);
-              copyKey.innerHTML = objectKeys[i].toUpperCase()+" : "+objectEntries[i][1];
+              copyKey.innerHTML = objectKeys[i].toUpperCase().replaceAll("_"," ")+" : "+objectEntries[i][1];
               detailsContainer.appendChild(copyKey);
           }
       }else{
@@ -106,7 +106,7 @@ async function fetchInfoWithFilter () {
 
           for(i=0;i<objectEntries.length;i++){
               let copyKey = myKey.cloneNode(true);
-              copyKey.innerHTML = objectKeys[i].toUpperCase()+" : "+objectEntries[i][1];
+              copyKey.innerHTML = objectKeys[i].toUpperCase().replaceAll("_"," ")+" : "+objectEntries[i][1];
               detailsContainer.appendChild(copyKey);
           }
           
