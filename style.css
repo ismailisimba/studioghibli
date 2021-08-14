@@ -1,0 +1,79 @@
+html {
+    font-family: "Roboto Condensed" !important;
+}
+
+.titlebox{
+    padding-top: 18px;
+    padding-bottom: 28px;
+    box-sizing: border-box;
+    height: 120px;
+    max-width: 669px;
+    width: 55%;
+    min-width: 128px;
+    background-color: gray;
+    margin: 0 auto;
+    margin-top: 24px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.titlebox h1 {
+    font-size: 18px;
+    letter-spacing: 1.69px;
+    color: white;
+    font-family: "Kiwi Maru" !important;
+    font-weight: 400 !important;
+    margin-block-start: 0px !important;
+}
+
+.titlebox select {
+    cursor: pointer;
+    font: 400 14px "Roboto Condensed";
+    letter-spacing: 1.69px;
+    width: 85%;
+    height: 36px;
+}
+
+
+.detailscontainer{
+    padding-top: 18px;
+    padding-bottom: 28px;
+    box-sizing: border-box;
+    height: 469px;
+    max-width: 669px;
+    width: 55%;
+    min-width: 128px;
+    background-color: gray;
+    margin: 0 auto;
+    margin-top: 24px;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.descriptioncontainer{
+    min-height: 669px;
+    background-color: transparent !important;
+    color:  white !important;
+    height: auto;
+    width: 96%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    position: relative;
+}
+
+.descriptioncontainer .items{
+        width: 100%;
+        font-size: 12px;
+        min-height: 36px;
+        letter-spacing: 1.69px;
+}
